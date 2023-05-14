@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Oca;
+    src: url(imagens/fontes/Typo\ Ring\ Regular\ Demo.otf);
+}
+
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+header .pequena {
+    padding-top: 10px;
+    max-width: 150px;
+    display: block;
+    margin: auto;
+}
+
+nav {
+    height: 100px;
+}
+
+section {
+    padding-top: 30vh;
+    padding-bottom: 60vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+section.normal {
+    background-color: #A6AC74;
+    color: black;
+}
+
+section.imagem {
+    background-color: darkgray;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.568);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+section#quarto p {
+    font-family: Oca;
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    position: relative;
+    transform: translate(250%, 100%);
+}
+
+section#camisa p {
+    font-family: Oca;
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    position: relative;
+    transform: translate(250%, 100%);
+}
+
+div.logo {
+    background-color: #A6AC74;
+    padding: 80px;
+}
+
+div.meninas {
+    background-color: #A6AC74;
+    padding-bottom: 80px;
+    height: 900px;
+}
+
+div.projeto {
+    background-color: #A6AC74;
+    padding: 80px;
+}
+
+div.contrato {
+    background-color: #A6AC74;
+    padding: 80px;
+} 
+
+div.caneca {
+    background-color: #A6AC74;
+    padding: 80px;
+} 
+
+section#logo {
+    background-image: url(imagens/Gustavo/17.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+section#meninas {
+    background-image: url(imagens/as\ ARQUITETAS\ FORMADAAAAASSS\ 2.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    transform: translate(-26%, 0%);
+}
+
+
+section#quarto {
+    background-image: url(imagens/diminuida/quarto.jpg);
+    background-position: center center;
+}
+
+section#projeto {
+    background-image: url(imagens/Gustavo/19.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#contrato {
+    background-image: url(imagens/Gustavo/18.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#camisa {
+    background-image: url(imagens/Gustavo/20.png);
+    background-position: center center;
+}
+
+section#caneca {
+    background-image: url(imagens/Gustavo/16.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer p {
+    padding-bottom: 20px;
+    background-color: #768051;
+    color: #FED29F;
+    text-align: center;
+}
+
+footer nav {
+    height: 50px;
+    background-color: #768051;
+    padding-top: 50px;
+    text-align: center;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.349);
+}
+
+footer nav > a {
+    color: #FED29F;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+footer nav > a:hover {
+    background-color: #A6AC74 ;
+    color: #768051;
+}
